@@ -1,0 +1,359 @@
+*{
+    font-family: 'Almarai', sans-serif;
+}
+
+body{
+    margin: 0px;
+    
+}
+.LOX{
+    background-image: url(https://asteria.sivium.solutions/storage/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    padding-top: 3vh;
+  
+}
+.headlist:hover{
+    color: rgb(119, 119, 215);
+    transition: 0.2s linear;
+}
+.head-btn1:hover{
+    color: rgb(81, 81, 172);
+    background-color: rgb(101, 101, 212);
+    transition: 0.2s linear;
+}
+.head-btn2:hover{
+    color: rgb(105, 60, 148);
+    background-color: rgb(135, 78, 188);
+    transition: 0.2s linear;
+}
+
+ .head-btn3:hover{
+    color: rgb(84, 84, 159);
+    background-color: rgb(185, 167, 167);
+    transition: 0.2s linear;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.headlist{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    padding-right: 1rem;
+    font-size: 20px;
+}
+
+.logo-img{
+    max-height: 70px;
+    margin-right: 1.5rem;
+}
+.head-btn1{
+    
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(119, 119, 215);
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-right: 0.8rem;
+}
+.head-btn2{
+   
+
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(163, 106, 217);
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-right: 0.8rem;
+}
+.head-btn3{
+    
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    background-color: rgb(247, 235, 235);
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 6rem;
+}
+.main-img{
+  max-height: 350px;
+  margin-right: 20vh;  
+}
+.main-text{
+    color: white;
+    font-size: large;
+}
+.main-btn{
+    margin-top: 2rem;
+}
+.butt1{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(163, 106, 217);
+    padding: 15px 20px;
+    border-radius: 13px;
+}
+.butt2{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 13px;
+}
+.back_img{
+   max-width: 100px;
+
+}
+.second-page{
+    height: 100vh;
+   
+}
+.waves1{
+   padding-bottom: 48px;
+   /* position: absolute;?!*!*!*!!*!**!* */
+}
+
+/* .second-page{
+    background-color:rgb(38, 38, 38);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide-pic{
+    max-height: 500px ;
+    max-width: 1000px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-size: cover;
+}
+.slide{
+    border-top: 10px solid rgb(116, 63, 176);
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.slide-btn{
+    text-decoration: none;
+    color: white;
+    background-color:rgb(116, 63, 176) ;
+    border-radius: 4px;
+    padding: 7px 15px;
+}
+.show-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */ 
+
+
+/* ------------- */
+
+
+.second-page{
+    background-color:rgb(38, 38, 38);
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.arrow1{
+    transform: rotate(180deg);
+}
+
+.slide{
+width: 70%;
+height: 65vh;
+background-image: url(https://asteria.sivium.solutions/storage/posts/u4X6O7SZEFUoSV8aBogj6hLZVbFB9M9DUaTC1iDa.png);
+background-size: cover;
+background-position: center;
+border-top: 10px solid rgb(136, 35, 252);
+border-top-right-radius: 25px;
+border-top-left-radius: 25px;
+display: flex;
+justify-content: left;
+position: relative;
+margin: 0px 3rem;
+
+}
+.content{
+   width: 30%;
+   color: white;
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   bottom: 0%;
+   background: rgba(0, 0, 0, 0.2); 
+   backdrop-filter: blur(15px); 
+   padding: 0px 20px;
+   border-top-left-radius: 25px; 
+   display: flex;
+   flex-direction: column;
+   transition: 0.3s linear;
+}
+.content:hover{
+    background: rgba(0, 0, 0, 0.6);
+    
+}
+.content-heading{
+    word-break: break-all;
+    font-size: 1.7rem;
+}
+.p-text{
+    word-break: break-all;
+    margin: 15px 15px 0px 0px;
+    position: absolute;
+    top: 18vh;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+
+.inner-btn{
+    padding: 1vh 14.7vh;
+    position: absolute;
+    bottom: 3vh;
+    background-color: rgb(153, 64, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.third-page{
+    background-color:rgb(38, 38, 38);
+    height: 100vh;
+}
+.third-content{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    color: white;
+}
+.headline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    padding: 0px 5rem;
+    line-height: 1.5;
+    margin-bottom: 3rem; 
+}
+.column{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.col{
+   line-height: 1.5;
+   padding: 30px;
+   font-size: 15px;
+   text-align: center;
+   font-weight: 100;
+   
+    }
+.col-text{
+    color: rgb(181, 173, 173);
+}
+.fourth-page{
+    background-image: url(https://asteria.sivium.solutions/storage/img/background.jpg);
+    height: 84vh;
+    background-size: 120%;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+.fourth-page::after{
+content: "";
+background-color: black;
+position: absolute;
+width: 100%;
+height: 84vh;
+opacity: 0.5;
+top: 0px;
+left: 0px;
+}
+.waves2{
+    position: relative;
+    z-index: 1;
+}
+.numbers{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white; 
+    z-index: 1;
+    position: relative;
+
+}
+.rating{
+    line-height: 1.5;
+    padding: 30px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 100;
+ }
+.num1{
+    font-size: 55px;
+    color: rgb(153, 64, 255);
+}
+.num2{
+    font-weight: 100;
+}
+
+.inner-wave-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+.waves3{
+    position: relative;
+    z-index: 1;
+    padding-bottom: 28px;
+}
+.be-among{
+    font-size: 1.9rem;
+    font-weight: 400;
+}
+.useful, .social{
+    font-weight: 500;
+}
+.two, .third{
+   text-decoration: none;
+}
+.copyright{
+    background-color: rgb(38, 38, 38);
+    color: white;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 3rem 5rem 0rem 5rem;
+}
